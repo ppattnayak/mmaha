@@ -1,8 +1,8 @@
 {
-  "@context": [
-    "https://schema.org/",
-    "https://w3id.org/croissant/v1"
-  ],
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "croissant": "https://w3id.org/croissant/v1"
+  },
   "@type": "Dataset",
   "name": "Multi-AHA Benchmark",
   "description": "Multi-AHA is a benchmark for accessibility-related hallucinations in multimodal models. It contains 2,000 UI screenshots (1,000 mobile and 1,000 web) from the RICO and Silatus datasets, six standardized prompts (P1–P6) for alt-text generation and accessibility reasoning, and evaluation scripts.",
